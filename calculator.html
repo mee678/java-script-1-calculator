@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <p>Addition,Subtraction,Division,Multiplication and Modulus</p>
+    <p><b>We will use two numbers 2 and 3 to do the calculations</b></p>
+    <p><b>a or num1 will be 2 and b or num2 will be 3</b></p>
+    <p><i>let's begin!</i></p>
+    <p id="p"></p>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var num1=2;//statement 1
+        var num2=3;//statement 2
+        var sum=num1+num2;
+         document.getElementById("p").innerHTML="The sum is = "+sum;
+    </script>
+    <script>
+        var a=2;
+        var b=3;
+        var d=a-b;
+        document.getElementById("p1").innerHTML="The difference is: "+d;
+    </script>
+    <script>
+        var a=2;
+        var b=3;
+        var p=a*b;
+        document.getElementById("p2").innerHTML="The product is: "+p;
+    </script>
+    <script>
+        var a=2;
+        var b=3;
+        var q=a/b;
+        document.getElementById("p3").innerHTML="The quotient is= "+q;
+    </script>
+    <script>
+        var a=2;
+        var b=3;
+        var r=a%b;
+        document.getElementById("p4").innerHTML="The reminder is: "+r;
+    </script>
+
+</body>
+</html>
